@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.spanky" name="spanky REPO" version="1.0" provider-name="spanky">
+	<extension point="xbmc.addon.repository" name="spanky Addon Repository">
+		<info compressed="false">http://github.com/spanky1/My-Repo/raw/master/addons.xml</info>
+		<checksum>http://github.com/spanky1/spanky/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/spanky1/spanky/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install add-ons from spanky</summary>
+		<description>Download and install addons from spanky.......For OFFICIAL  Support Visit tvaddons.ag</description>
+		<platform>all</platform>
+	</extension>
+</addon>
